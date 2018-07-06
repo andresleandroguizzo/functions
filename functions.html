@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<script type="text/javascript" src="functions.js"></script>
+</head>
+<body>
+<p>El quadrat de 4 és</p>
+<p id="sq"></p> 
+<script>
+	document.getElementById("sq").innerHTML = square(4);
+</script>
+<p>16 es un numero parell?</p>
+<p id="ev"></p>
+<script>
+	document.getElementById("ev").innerHTML = even(16);
+</script>
+<p>15 es un numero parell?</p>
+<p id="od"></p>
+<script>
+	document.getElementById("od").innerHTML = even(15);
+</script>
+<p>El factorial de 3 és</p>
+<p id="fact"></p>
+
+<script>
+	document.getElementById("fact").innerHTML = factorial(3);
+</script>
+<p>Numero random</p>
+<p id="random"></p>
+<script>
+	document.getElementById("random").innerHTML = mysterious();
+</script>
+<p>El numero més gran entre 4, 16, 3, 6</p>
+<p id="max"></p>
+<script>
+	document.getElementById("max").innerHTML = maxim(4,16,3,6);
+</script>
+</body>
+</html>
